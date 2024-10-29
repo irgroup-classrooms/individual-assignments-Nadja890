@@ -6,6 +6,8 @@ pwd (Print Working Directory)
 Exercises = No exercises for this lesson Quiz  
 Quiz How do I find what directory you are currently in? =  pwd
 
+cd (Change Directory)
+
 
 
 
