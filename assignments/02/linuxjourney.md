@@ -4,7 +4,8 @@ What should be outputted to the display when you type echo Hello World? $ echo H
 
 pwd (Print Working Directory)
 Exercises = No exercises for this lesson Quiz  
-How do I find what directory you are currently in? 
+Quiz How do I find what directory you are currently in? =  pwd
+
 
 
 
