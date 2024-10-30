@@ -17,6 +17,8 @@ ls -r: reverse order while sorting = shows you information about a few files by 
 ls -t: sort by modification time, newest first = shows the newest saved files first 
 Quiz What command would you use to see hidden files? = ls -a
 
+touch
+
 
 
 
