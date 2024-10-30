@@ -8,7 +8,9 @@ Quiz How do I find what directory you are currently in? =  pwd
 
 cd (Change Directory)
 Run the cd command without any flags, where does it take you?= No Answer
-Quiz: If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a good shortcut to use? =
+Quiz: If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a good shortcut to use? = cd ..
+
+
 
 
 
