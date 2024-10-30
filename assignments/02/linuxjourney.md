@@ -15,6 +15,7 @@ Run ls with different flags and see the output you receive:
 ls -R: recursively list directory contents =  it  shows you detailed information about the files and directories you are looking at
 ls -r: reverse order while sorting = shows you information about a few files by reversimg the order and sorting them  
 ls -t: sort by modification time, newest first = shows the newest saved files first 
+Quiz What command would you use to see hidden files? =
 
 
 
