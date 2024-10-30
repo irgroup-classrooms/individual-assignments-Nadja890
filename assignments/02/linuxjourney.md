@@ -18,6 +18,11 @@ ls -t: sort by modification time, newest first = shows the newest saved files fi
 Quiz What command would you use to see hidden files? = ls -a
 
 touch
+Exercises
+Create a new file:
+Note the timestamp:
+Touch the file and check the timestamp once again:
+
 
 
 
