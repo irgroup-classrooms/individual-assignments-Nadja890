@@ -11,6 +11,10 @@ Run the cd command without any flags, where does it take you?= No Answer
 Quiz: If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a good shortcut to use? = cd ..
 
 ls (List Directories)
+Run ls with different flags and see the output you receive:
+ls -R: recursively list directory contents = 
+ls -r: reverse order while sorting =
+ls -t: sort by modification time, newest first = 
 
 
 
