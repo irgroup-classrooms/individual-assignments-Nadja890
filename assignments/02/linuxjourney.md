@@ -24,7 +24,7 @@ Note the timestamp: Oct 30 12:18  mysuperduperfile
 Touch the file and check the timestamp once again:
 Quiz How do you create a file called myfile?: touch myfile
 
-
+6. file
 
 
 
