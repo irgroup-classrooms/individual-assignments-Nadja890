@@ -25,6 +25,8 @@ Touch the file and check the timestamp once again:
 Quiz How do you create a file called myfile?: touch myfile
 
 6. file
+Quiz
+What command can you use to find the file type of a file? =
 
 
 
