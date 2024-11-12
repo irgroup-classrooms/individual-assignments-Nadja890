@@ -36,7 +36,8 @@ What's a good way to see the contents of a file?=cat
 Run cat on different files and directories. Then try to cat multiple files.= $ cd /c/Git\ hub, $ echo "hello" > textfile.txt, $ cat textfile.txt hello
 
 8. less
-
+Quiz
+How do you quit out of a less command?=
 
 
 
