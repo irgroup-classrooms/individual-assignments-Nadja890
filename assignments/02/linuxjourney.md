@@ -102,7 +102,8 @@ $ ls
 
 17. whatis
 Quiz
-What command can you use to see a small description of a command?=
+What command can you use to see a small description of a command?= whatis
+
 
 
 
