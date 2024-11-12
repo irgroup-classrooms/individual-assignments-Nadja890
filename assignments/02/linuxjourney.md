@@ -87,9 +87,13 @@ newline, on the standard output.
 $ help logout
 logout: logout [n]
     Exit a login shell.
-
     Exits a login shell with exit status N.  Returns an error if not executed
     in a login shell.
+
+$ help pwd
+pwd: pwd [-LPW]
+    Print the name of the current working directory.
+
 
 
 
