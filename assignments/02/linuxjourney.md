@@ -64,6 +64,8 @@ What command is use to make a directory?=  mkdir
 Exercises
 Make a couple of directories and move some files into that directory.=$ mkdir Farben,$ mkdir books paintings,$ mv /c/Users/nadja/OneDrive/Dokumente/textfile.txt /c/Git\ hub/Farben
 
+13. rm (Remove)
+
 
 
 
