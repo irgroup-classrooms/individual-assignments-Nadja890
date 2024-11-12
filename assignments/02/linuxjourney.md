@@ -75,6 +75,8 @@ What option should I specify for find if I want to search by name? =-name
 Exercises
 Find a file from the root directory that has the word net in it.=
 
+15.help
+
 
 
 
