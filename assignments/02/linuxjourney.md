@@ -101,6 +101,8 @@ $ ls
 '01-introduction (1).pdf'   Farben/   books/   file   paintings/
 
 17. whatis
+Quiz
+What command can you use to see a small description of a command?=
 
 
 
