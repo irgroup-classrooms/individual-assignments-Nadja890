@@ -40,6 +40,9 @@ Quiz
 How do you quit out of a less command?= q
 Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.= $ less /c/Git\ hub/textfile.txt
 
+9. history
+
+
 
 
 
