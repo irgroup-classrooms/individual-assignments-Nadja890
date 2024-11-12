@@ -65,7 +65,8 @@ Exercises
 Make a couple of directories and move some files into that directory.=$ mkdir Farben,$ mkdir books paintings,$ mv /c/Users/nadja/OneDrive/Dokumente/textfile.txt /c/Git\ hub/Farben
 
 13. rm (RemoveQuiz
-How do you remove a file called myfile?= 
+How do you remove a file called myfile?= rm myfi
+
 
 
 
