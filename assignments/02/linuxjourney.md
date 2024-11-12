@@ -35,10 +35,15 @@ Quiz
 What's a good way to see the contents of a file?=cat
 Run cat on different files and directories. Then try to cat multiple files.= $ cd /c/Git\ hub, $ echo "hello" > textfile.txt, $ cat textfile.txt hello
 
-8. less
+9. less
 Quiz
 How do you quit out of a less command?= q
-Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.=
+Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.= $ less /c/Git\ hub/textfile.txt
+
+
+
+
+
 
 
 
