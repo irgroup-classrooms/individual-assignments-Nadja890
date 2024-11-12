@@ -53,6 +53,8 @@ Exercises
 Copy over a couple of files, be careful not to overwrite anything important.= $ cp /c/Git\ hub/textfile.txt /c/Users/nadja/Downloads
 
 11.mv (Move)
+Quiz
+How do you rename a file called cat to dog?=
 
 
 
