@@ -96,7 +96,7 @@ pwd: pwd [-LPW]
 
 16. man
 Quiz
-How do you see the manuals for a command?=
+How do you see the manuals for a command?= man 
 $ ls
 '01-introduction (1).pdf'   Farben/   books/   file   paintings/
 
