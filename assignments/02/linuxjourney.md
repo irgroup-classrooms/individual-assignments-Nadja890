@@ -59,7 +59,8 @@ Exercises
 Rename a file, then move that file to a different directory.= $ mv textfile.txt text, mv /c/Git\ hub/text /c/Users/nadja/OneDrive/Bilder
 
 12.mkdir (Make Directory)
-
+Quiz
+What command is use to make a directory?= 
 
 
 
