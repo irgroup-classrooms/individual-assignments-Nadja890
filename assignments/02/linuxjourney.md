@@ -30,29 +30,29 @@ What command can you use to find the file type of a file? = file
 Run the file command on a few different directories and files and note the output.= Command: $ file c\Users\nadja\Downloads\lebenslauf_Nadja_Debrezion_ (3).docx
 bash: syntax error near unexpected token `('
 
-8. cat
+7. cat
 Quiz
 What's a good way to see the contents of a file?=cat
 Run cat on different files and directories. Then try to cat multiple files.= $ cd /c/Git\ hub, $ echo "hello" > textfile.txt, $ cat textfile.txt hello
 
-9. less
+8. less
 Quiz
 How do you quit out of a less command?= q
 Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.= $ less /c/Git\ hub/textfile.txt
 
-10. history
+9. history
 Quiz
 What is the command to clear the terminal?= clear
 Exercises
 Navigate through your previous command history with the Up and Down keys. Play around with ctrl-R reverse search.= (reverse-i-search)`':= no outcome
 
-11.cp (Copy)
+10.cp (Copy)
 Quiz
 What flag do you need to specify to copy over a directory?= -r
 Exercises
 Copy over a couple of files, be careful not to overwrite anything important.= $ cp /c/Git\ hub/textfile.txt /c/Users/nadja/Downloads
 
-12
+11.
 
 
 
