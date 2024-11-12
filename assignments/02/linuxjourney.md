@@ -67,7 +67,9 @@ Make a couple of directories and move some files into that directory.=$ mkdir Fa
 13. rm (RemoveQuiz
 How do you remove a file called myfile?= rm myfile
 Exercises
-Create a file called -file (don't forget the dash!). Remove that file.=
+Create a file called -file (don't forget the dash!). Remove that file.= $ touch -- -file= 
+
+
 
 
 
