@@ -38,6 +38,7 @@ Run cat on different files and directories. Then try to cat multiple files.= $ c
 8. less
 Quiz
 How do you quit out of a less command?= q
+Run less on a file, then page up and around the file. Try searching for a specific word. Quickly navigate to the beginning or the end of the file.=
 
 
 
