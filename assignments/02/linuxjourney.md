@@ -60,7 +60,8 @@ Rename a file, then move that file to a different directory.= $ mv textfile.txt 
 
 12.mkdir (Make Directory)
 Quiz
-What command is use to make a directory?= 
+What command is use to make a directory?=  mkdir
+
 
 
 
