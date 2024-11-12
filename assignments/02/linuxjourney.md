@@ -50,7 +50,10 @@ Navigate through your previous command history with the Up and Down keys. Play a
 Quiz
 What flag do you need to specify to copy over a directory?= -r
 Exercises
-Copy over a couple of files, be careful not to overwrite anything important.= 
+Copy over a couple of files, be careful not to overwrite anything important.= $ cp /c/Git\ hub/textfile.txt /c/Users/nadja/Downloads
+
+12
+
 
 
 
