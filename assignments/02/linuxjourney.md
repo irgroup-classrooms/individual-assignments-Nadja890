@@ -55,6 +55,8 @@ Copy over a couple of files, be careful not to overwrite anything important.= $ 
 11.mv (Move)
 Quiz
 How do you rename a file called cat to dog?= mv cat dog
+Exercises
+Rename a file, then move that file to a different directory.= 
 
 
 
