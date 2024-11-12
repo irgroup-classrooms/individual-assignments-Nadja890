@@ -48,7 +48,8 @@ Navigate through your previous command history with the Up and Down keys. Play a
 
 11.cp (Copy)
 Quiz
-What flag do you need to specify to copy over a directory?=
+What flag do you need to specify to copy over a directory?= -r
+
 
 
 
