@@ -52,7 +52,7 @@ What flag do you need to specify to copy over a directory?= -r
 Exercises
 Copy over a couple of files, be careful not to overwrite anything important.= $ cp /c/Git\ hub/textfile.txt /c/Users/nadja/Downloads
 
-11.
+11.mv (Move)
 
 
 
