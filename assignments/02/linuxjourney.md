@@ -30,6 +30,9 @@ What command can you use to find the file type of a file? = file
 Command: $ file c\Users\nadja\Downloads\lebenslauf_Nadja_Debrezion_ (3).docx
 bash: syntax error near unexpected token `('
 
+7. cat
+
+
 
 
 
