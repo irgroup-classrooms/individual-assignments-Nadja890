@@ -43,6 +43,8 @@ Run less on a file, then page up and around the file. Try searching for a specif
 9. history
 Quiz
 What is the command to clear the terminal?= clear
+Exercises
+Navigate through your previous command history with the Up and Down keys. Play around with ctrl-R reverse search.= 
 
 
 
