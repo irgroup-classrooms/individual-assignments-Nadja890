@@ -95,6 +95,8 @@ pwd: pwd [-LPW]
     Print the name of the current working directory.
 
 16. man
+Quiz
+How do you see the manuals for a command?=
 $ ls
 '01-introduction (1).pdf'   Farben/   books/   file   paintings/
 
