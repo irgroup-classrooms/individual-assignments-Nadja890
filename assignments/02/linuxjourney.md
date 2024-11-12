@@ -27,13 +27,13 @@ Quiz How do you create a file called myfile?: touch myfile
 6. file
 Quiz
 What command can you use to find the file type of a file? = file
-Command: $ file c\Users\nadja\Downloads\lebenslauf_Nadja_Debrezion_ (3).docx
+Run the file command on a few different directories and files and note the output.= Command: $ file c\Users\nadja\Downloads\lebenslauf_Nadja_Debrezion_ (3).docx
 bash: syntax error near unexpected token `('
 
 8. cat
 Quiz
 What's a good way to see the contents of a file?=cat
-Run cat on different files and directories. Then try to cat multiple files.=
+Run cat on different files and directories. Then try to cat multiple files.= 
 
 
 
