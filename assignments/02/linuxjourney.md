@@ -71,7 +71,8 @@ Create a file called -file (don't forget the dash!). Remove that file.= $ touch 
 
 14.Find
 Quiz
-What option should I specify for find if I want to search by name? 
+What option should I specify for find if I want to search by name? =-name
+
 
 
 
