@@ -78,6 +78,25 @@ Find a file from the root directory that has the word net in it.=
 15.help
 Quiz
 How do you get quick command line help for built-in bash commands?=help
+$ help echo
+echo: echo [-neE] [arg ...]
+    Write arguments to the standard output.
+Display the ARGs, separated by a single space character and followed by a
+newline, on the standard output.
+
+$ help logout
+logout: logout [n]
+    Exit a login shell.
+
+    Exits a login shell with exit status N.  Returns an error if not executed
+    in a login shell.
+
+
+
+
+
+
+
 
 
 
