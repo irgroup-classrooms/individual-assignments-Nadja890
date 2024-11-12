@@ -62,7 +62,9 @@ Rename a file, then move that file to a different directory.= $ mv textfile.txt 
 Quiz
 What command is use to make a directory?=  mkdir
 Exercises
-Make a couple of directories and move some files into that directory.=$ mkdir Farben,$ mkdir books paintings,
+Make a couple of directories and move some files into that directory.=$ mkdir Farben,$ mkdir books paintings,$ mv /c/Users/nadja/OneDrive/Dokumente/textfile.txt /c/Git\ hub/Farben
+
+
 
 
 
