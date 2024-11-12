@@ -46,7 +46,9 @@ What is the command to clear the terminal?= clear
 Exercises
 Navigate through your previous command history with the Up and Down keys. Play around with ctrl-R reverse search.= (reverse-i-search)`':= no outcome
 
-11.cp (Copy
+11.cp (Copy)
+Quiz
+What flag do you need to specify to copy over a directory?=
 
 
 
