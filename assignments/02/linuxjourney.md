@@ -56,7 +56,10 @@ Copy over a couple of files, be careful not to overwrite anything important.= $ 
 Quiz
 How do you rename a file called cat to dog?= mv cat dog
 Exercises
-Rename a file, then move that file to a different directory.= $ mv textfile.txt text, 
+Rename a file, then move that file to a different directory.= $ mv textfile.txt text, mv /c/Git\ hub/text /c/Users/nadja/OneDrive/Bilder
+
+12
+
 
 
 
