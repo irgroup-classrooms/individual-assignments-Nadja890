@@ -31,6 +31,8 @@ Command: $ file c\Users\nadja\Downloads\lebenslauf_Nadja_Debrezion_ (3).docx
 bash: syntax error near unexpected token `('
 
 7. cat
+Quiz
+What's a good way to see the contents of a file?=
 
 
 
