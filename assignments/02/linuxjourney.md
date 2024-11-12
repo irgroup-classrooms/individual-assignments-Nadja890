@@ -94,6 +94,7 @@ $ help pwd
 pwd: pwd [-LPW]
     Print the name of the current working directory.
 
+16. man
 
 
 
