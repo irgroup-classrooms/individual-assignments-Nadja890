@@ -95,6 +95,9 @@ pwd: pwd [-LPW]
     Print the name of the current working directory.
 
 16. man
+$ ls
+'01-introduction (1).pdf'   Farben/   books/   file   paintings/
+
 
 
 
