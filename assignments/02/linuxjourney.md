@@ -2,22 +2,22 @@ What is the shell? The shell is basically a program that takes your commands fro
 $ date $ whoami = $ date= Wed Oct 23 17:26:17 2024  $ whoami= nadja
 What should be outputted to the display when you type echo Hello World? $ echo Hello World = Hello World
 
-pwd (Print Working Directory)
+2.pwd (Print Working Directory)
 Exercises = No exercises for this lesson Quiz  
 Quiz How do I find what directory you are currently in? =  pwd
 
-cd (Change Directory)
+3.cd (Change Directory)
 Run the cd command without any flags, where does it take you?= No Answer
 Quiz: If you are in /home/pete/Pictures and wanted to go to /home/pete, what’s a good shortcut to use? = cd ..
 
-ls (List Directories)
+4.ls (List Directories)
 Run ls with different flags and see the output you receive:
 ls -R: recursively list directory contents =  it  shows you detailed information about the files and directories you are looking at
 ls -r: reverse order while sorting = shows you information about a few files by reversimg the order and sorting them  
 ls -t: sort by modification time, newest first = shows the newest saved files first 
 Quiz What command would you use to see hidden files? = ls -a
 
-touch
+5.touch
 Exercises
 Create a new file: touch mysuperduperfile
 Note the timestamp: Oct 30 12:18  mysuperduperfile
@@ -33,7 +33,8 @@ bash: syntax error near unexpected token `('
 8. cat
 Quiz
 What's a good way to see the contents of a file?=cat
-Run cat on different files and directories. Then try to cat multiple files.= 
+Run cat on different files and directories. Then try to cat multiple files.= $ cd /c/Git\ hub, $ echo "hello" > textfile.txt, $ cat textfile.txt hello
+
 
 
 
