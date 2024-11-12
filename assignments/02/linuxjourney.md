@@ -76,6 +76,8 @@ Exercises
 Find a file from the root directory that has the word net in it.=
 
 15.help
+Quiz
+How do you get quick command line help for built-in bash commands?=
 
 
 
