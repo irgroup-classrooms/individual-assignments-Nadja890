@@ -104,7 +104,9 @@ $ ls
 Quiz
 What command can you use to see a small description of a command?= whatis
 Exercises
-Run the whatis command on the less command.=
+Run the whatis command on the less command.= not working
+
+
 
 
 
