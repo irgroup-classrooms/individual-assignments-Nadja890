@@ -112,7 +112,10 @@ What command is used to make an alias?= alias
 Exercises
 Create a couple of aliases then remove them.=$ alias foobar='ls -la', $ unalias foobar
 
-19
+19.exit
+Quiz
+How can you exit from the shell?=
+
 
 
 
