@@ -96,11 +96,11 @@ pwd: pwd [-LPW]
 
 16. man
 Quiz
-How do you see the manuals for a command?= man 
-$ ls
-'01-introduction (1).pdf'   Farben/   books/   file   paintings/
+How do you see the manuals for a command?= man
+Exercises
+Run the man command on the ls command.=$ ls'01-introduction (1).pdf'   Farben/   books/   file   paintings/
 
-17. whatis
+18. whatis
 Quiz
 What command can you use to see a small description of a command?= whatis
 Exercises
