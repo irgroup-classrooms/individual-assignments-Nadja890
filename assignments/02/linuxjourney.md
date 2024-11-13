@@ -116,7 +116,7 @@ Create a couple of aliases then remove them.=$ alias foobar='ls -la', $ unalias 
 Quiz
 How can you exit from the shell?=exit
 Exercises
-Exit out of the shell and see what happens. Make sure you don't need to do anymore work in that shell.=
+Exit out of the shell and see what happens. Make sure you don't need to do anymore work in that shell.= $exit=gitbash closes $logout=logdout of gitbash 
 
 
 
