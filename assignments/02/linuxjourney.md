@@ -110,7 +110,9 @@ Run the whatis command on the less command.= not working
 Quiz
 What command is used to make an alias?= alias
 Exercises
-Create a couple of aliases then remove them.=$ alias foobar='ls -la', 
+Create a couple of aliases then remove them.=$ alias foobar='ls -la', $ unalias foobar
+
+19
 
 
 
