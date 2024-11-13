@@ -114,7 +114,9 @@ Create a couple of aliases then remove them.=$ alias foobar='ls -la', $ unalias 
 
 19.exit
 Quiz
-How can you exit from the shell?=
+How can you exit from the shell?=exit
+Exercises
+Exit out of the shell and see what happens. Make sure you don't need to do anymore work in that shell.=
 
 
 
