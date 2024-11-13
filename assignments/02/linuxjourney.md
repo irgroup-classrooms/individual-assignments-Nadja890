@@ -107,6 +107,8 @@ Exercises
 Run the whatis command on the less command.= not working
 
 18.alias
+Quiz
+What command is used to make an alias?= alias
 Exercises
 Create a couple of aliases then remove them.=
 
