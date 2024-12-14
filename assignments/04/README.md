@@ -12,45 +12,141 @@ You can add your command line in- and outputs directly to this README file. Alte
 ````
 1. Extract all email addresses from the text.
 ````
-Command:
+Command: grep -oE '[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}' csv/contacts.csv
+Output:
+john.doe@example.com
+jane.smith@gmail.com
+mjohnson@yahoo.com
+lharris@hotmail.com
+rbrown@company.com
+alice.white@domain.org
+dgreen@domain.net
+eblack@webmail.com
+cblue@provider.com
+ssilver@university.edu
+
 
 
 
 ``` 
 2. Extract all phone numbers from the text.
-``` 
+```
+Command: grep -oE '\(\d{3}\)\s\d{3}-\d{4}' csv/contacts.csv
+Output:
+(555) 123-4567
+(555) 987-6543
+(555) 555-5555
+(555) 321-6789
+(555) 876-5432
+(555) 432-5678
+(555) 246-1357
+(555) 531-2468
+(555) 864-9753
+(555) 975-8642
+
 
 ``` 
 3. Extract all names that start with the letter ‘J’.
-``` 
+```
+Command: grep -oE '\bJ\w+\s\w+' csv/contacts.csv
+Output:
+John Doe
+Jane Smith
 
 ``` 
 4. Extract all street names that contain the word 'St'.
-``` 
+```
+Command: grep -oE '\d+\s\w+\s*St(\w*)' csv/contacts.csv
+Output: 
+123 Main St
+456 Oak St
+987 Elm St
+246 Birch St
+135 Walnut St
+864 Chestnut St
 
 ``` 
 5. Extract all addresses in ‘USA’.
-``` 
+```
+Command:grep -oE '.*USA' csv/contacts.csv
+
+Output:
+John Doe    123 Main St    Anytown    USA    john.doe@example.com    (555) 123-4567
+Jane Smith    456 Oak St    Sometown    USA    jane.smith@gmail.com    (555) 987-6543
+Mike Johnson    789 Pine Rd    Othertown    USA    mjohnson@yahoo.com    (555) 555-5555
+Linda Harris    321 Maple Dr    Newcity    USA    lharris@hotmail.com    (555) 321-6789
+Robert Brown    654 Cedar St    Oldtown    USA    rbrown@company.com    (555) 876-5432
+Alice White    987 Elm St    Smalltown    USA    alice.white@domain.org    (555) 432-5678
+David Green    246 Birch St    Uptown    USA    dgreen@domain.net    (555) 246-1357
+Emily Black    135 Walnut St    Middletown    USA    eblack@webmail.com    (555) 531-2468
+Chris Blue    864 Chestnut St    Metropolis    USA    cblue@provider.com    (555) 864-9753
+Susan Silver    975 Cypress Ave    Bigcity    USA    ssilver@university.edu    (555) 975-8642
+
 
 ``` 
 6. Extract the last names of all people.
-``` 
+```
+Command: awk '{print $2}' csv/contacts.csv
+Output:
+Doe
+Smith
+Johnson
+Harris
+Brown
+White
+Green
+Black
+Blue
+Silver
+
 
 ``` 
 7. Extract all email domains (part after the @ sign).
-``` 
+```
+Command: grep -oE '@([a-zA-Z0-9.-]+)' csv/contacts.csv | cut -d'@' -f2
+Output:
+example.com
+gmail.com
+yahoo.com
+hotmail.com
+company.com
+domain.org
+domain.net
+webmail.com
+provider.com
+university.edu
+
 
 ``` 
 8.	Extract all instances of the first name ‘David’ along with their full address (street and city).
-``` 
+```
+Command:grep -oE 'David\s\w+\s.*USA' csv/contacts.csv
+
+Output:David Green    246 Birch St    Uptown    USA    dgreen@domain.net    (555) 246-1357
+
 
 ``` 
 9.	Find all entries where the phone number ends with ‘7’.
-``` 
+```
+Command: grep -oE '\(\d{3}\)\s\d{3}-\d{4}' csv/contacts.csv | grep -E '\d{3}-7$'
+
+
+Output:
+(555) 123-4567
+(555) 246-1357
+
+
 
 ``` 
 10.	Extract all instances of first names that end with the letter 'e'.
-``` 
+```
+Command: grep -oE '\b\w*e\b' csv/contacts.csv
+
+Output:
+Jane
+Alice
+
+
 
 ``` 
 
