@@ -1,1 +1,22 @@
+How do you get the first three lines of the file 2014-01_JA.tsv?
+Header Row:
+File	Creator	Issue	Volume	Journal	ISSN	ID	Citation	Title	Place Labe	Language	Publisher	Date
+First Data Row:
+History_1a-rdf.tsv	Doolittle, W. E.	1	59	KIVA -ARIZONA-	0023-1940	(Uk)RN001571862	KIVA -ARIZONA- 59(1), 7-26. (1993)	A Method for Distinguishing between Prehistoric and Recent Water and Soil Control Features	xxu	eng	ARIZONA ARCHAEOLOGICAL AND HISTORICAL SOCIETY	1993
+Second Data Row:
+History_1a-rdf.tsv	Nelson, M. C.	1	59	KIVA -ARIZONA-	0023-1940	(Uk)RN001571874	KIVA -ARIZONA- 59(1), 27-48. (1993)	Classic Mimbres Land Use in the Eastern Mimbres Region, Southwestern New Mexico	xxu	eng	ARIZONA ARCHAEOLOGICAL AND HISTORICAL SOCIETY	1993
 
+How do you get the total number of lines in each of the *.tsvfiles?
+Command:
+wc -l *.tsv
+Output:
+2014-01-31_JA-africa.tsv: 13,712 lines
+2014-01-31_JA-america.tsv: 27,392 lines
+2014-02-02_JA-britain.tsv: 5,375 lines
+2014-01_JA.tsv: 507,732 lines
+
+
+
+How do you get the file with the highest number of lines and how many does it have? Can you get the output with a single command line call?
+Command: wc -l *.tsv | sort -nr | head -n 1
+Output: 507732 2014-01_JA.tsv
