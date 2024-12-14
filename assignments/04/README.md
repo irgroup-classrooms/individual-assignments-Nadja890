@@ -143,7 +143,7 @@ Output:
 Command: grep -oE '\b\w*e\b' csv/contacts.csv
 
 Output:
-Jane
+Jane,
 Alice
 
 
