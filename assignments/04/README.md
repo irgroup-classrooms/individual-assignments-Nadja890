@@ -156,6 +156,43 @@ In this directory, you will find another file called `csv/orders.csv` and also a
 
 1.	Extract all order numbers from the text.
 
+
+## Parsing product orders with Python
+
+In this directory, you will find another file called `csv/orders.csv` and also a short Python script that reads the file and parses all numbers with a regular expression. Please extend the script such that it also print the following extracted text pieces.
+
+1.	Extract all order numbers from the text.
+
+
+## Parsing product orders with Python
+
+In this directory, you will find another file called `csv/orders.csv` and also a short Python script that reads the file and parses all numbers with a regular expression. Please extend the script such that it also print the following extracted text pieces.
+
+1.	Extract all order numbers from the text.= order_numbers = re.findall(r'Order #(\d+)', text)
+
+2.	Extract all product names.=product_names = re.findall(r'Product: ([A-Za-z ]+)', text)
+
+3.	Extract all prices.= prices = re.findall(r'Price: \$(\d+\.\d{2})', text)
+    prices = [float(price) for price in prices]
+
+4.	Extract all order dates.
+5.	Find all orders for products priced over $500. (You are allowed to use Python to filter the list.)
+6.	Change the date format to DD/MM/YYYY. (Note the re.sub() method)
+7.	Extract product names that have more than 6 characters.
+8.	Count the occurrence of each product in the text. (You may want to use the Counter class from the collections package.)
+9.	Extract the orders with prices ending in .99.
+10.	Find the cheapest product. (You may want to use Python's min() method.)
+
+2.	Extract all product names.
+3.	Extract all prices.
+4.	Extract all order dates.
+5.	Find all orders for products priced over $500. (You are allowed to use Python to filter the list.)
+6.	Change the date format to DD/MM/YYYY. (Note the re.sub() method)
+7.	Extract product names that have more than 6 characters.
+8.	Count the occurrence of each product in the text. (You may want to use the Counter class from the collections package.)
+9.	Extract the orders with prices ending in .99.
+10.	Find the cheapest product. (You may want to use Python's min() method.)
+
 2.	Extract all product names.
 3.	Extract all prices.
 4.	Extract all order dates.
