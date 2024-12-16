@@ -154,7 +154,8 @@ Alice
 
 In this directory, you will find another file called `csv/orders.csv` and also a short Python script that reads the file and parses all numbers with a regular expression. Please extend the script such that it also print the following extracted text pieces.
 
-1.	Extract all order numbers from the text. 
+1.	Extract all order numbers from the text.
+
 2.	Extract all product names.
 3.	Extract all prices.
 4.	Extract all order dates.
