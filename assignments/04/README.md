@@ -212,22 +212,4 @@ print("Order Numbers:", order_numbers)
     print("Product Counts:", product_count)
     print("Orders with Prices Ending in .99:", orders_ending_in_99)
     print("Cheapest Product:", cheapest_product, "at $", cheapest_price)
-2.	Extract all product names.
-3.	Extract all prices.
-4.	Extract all order dates.
-5.	Find all orders for products priced over $500. (You are allowed to use Python to filter the list.)
-6.	Change the date format to DD/MM/YYYY. (Note the re.sub() method)
-7.	Extract product names that have more than 6 characters.
-8.	Count the occurrence of each product in the text. (You may want to use the Counter class from the collections package.)
-9.	Extract the orders with prices ending in .99.
-10.	Find the cheapest product. (You may want to use Python's min() method.)
 
-2.	Extract all product names.
-3.	Extract all prices.
-4.	Extract all order dates.
-5.	Find all orders for products priced over $500. (You are allowed to use Python to filter the list.)
-6.	Change the date format to DD/MM/YYYY. (Note the re.sub() method)
-7.	Extract product names that have more than 6 characters.
-8.	Count the occurrence of each product in the text. (You may want to use the Counter class from the collections package.)
-9.	Extract the orders with prices ending in .99.
-10.	Find the cheapest product. (You may want to use Python's min() method.)
